@@ -72,7 +72,8 @@
         <configuration>
           <release>9</release>
           <compilerArgs>
-            <arg>--add-modules</arg> <arg>java.xml.bind,java.xml.ws.annotation,javafx.graphics</arg>
+            <arg>--module-path</arg> <arg>/home/jeff/Tools/javafx-sdk-11.0.1/lib</arg>
+            <arg>--add-modules</arg> <arg>java.xml.bind,java.xml.ws.annotation,javafx.graphics,javafx.controls,javafx.swing,javafx.fxml</arg>
           </compilerArgs>
         </configuration>
       </plugin>
